@@ -2,7 +2,6 @@
 
 int main(void)
 {
-	char ptr = 'a';
-	ptr = _printf("i am %c boy %c\n", ptr, 's');
+	_printf("strong%%s %c", "str", 'c');
 	return (0);
 }
